@@ -1,0 +1,92 @@
+.logo{
+    width:250px;
+    cursor:pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;   
+}
+nav ul li a:hover{
+    color:#ff4321;
+}
+.btn{
+    background-color: #ff4321;
+    border-radius: 5px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.4 ease;
+}
+.btn:hover{
+    background: #161b34;
+    color:#ff4321;
+    border: 1px solid #ff4321;
+}
+.skill{
+   background:#161b34;
+   width:100%;
+   padding: 100px 0px;
+   margin-bottom: 200px;
+}
+.title h2{
+    color:#ff4321;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+}
+.title h2 span{
+    color:white
+}
+.title p{
+    color: white;
+    width: 1130px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.box{
+    display:flex;
+    margin-left: 17%;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 550px;
+    width: 370px;
+    padding: 20px 35px;
+    background: #ff4321;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:white;
+}
+.card h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.para p{
+    color:rgb(247, 247, 247);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.para p span{
+    color:rgb(255, 255, 255);
+    justify-self: start;
+    font-weight: bold;
+}
