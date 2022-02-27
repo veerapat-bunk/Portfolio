@@ -1,0 +1,64 @@
+.skill{
+    background:#161b34;
+    width:100%;
+    padding: 100px 0px;
+ }
+ .title h2{
+     color:#ff4321;
+     font-size: 75px;
+     width: 1130px;
+     margin: 30px auto;
+     text-align: center;
+ }
+ .title h2 span{
+     color:white
+ }
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 400px;
+ }
+ .card{
+     height: 365px;
+     width: 335px;
+     padding: 20px 35px;
+     background: #ff4321;
+     border-radius: 20px;
+     margin: 15px;
+     position: relative;
+     overflow: hidden;
+     text-align: center;
+ }
+ .card i{
+     font-size: 50px;
+     display: block;
+     text-align: center;
+     margin: 25px 0px;
+     color:white;
+ }
+ .card h5{
+     color: white;
+     font-size: 23px;
+     margin-bottom: 20px;
+ }
+ .para p{
+     color:rgb(0, 0, 0);
+     font-size: 16px;
+     line-height: 27px;
+     margin-bottom: 30px;
+ }
+ .card .button{
+     background-color: white;
+     color:#161b34;
+     text-decoration: none;
+     border: 2px solid transparent;
+     padding: 9px 22px;
+     border-radius: 30px;
+     transition: .4s;
+ }
+ .card .button:hover{
+     background-color: transparent;
+     border: 2px solid #161b34;
+     cursor: pointer;
+ }
