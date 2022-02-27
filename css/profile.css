@@ -1,0 +1,58 @@
+.about-me h1{
+    margin-left: 8%;
+    margin-top: 10%;
+    color:#fdfdfd;
+}
+.about-me h1 span{
+    color:#ff4321;
+}
+.about-me p{
+    color:white;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    margin-left: 7%;
+    width: 500px;
+    padding-left: 21px;
+}
+.web{
+    color:white;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    margin-left: 7%;
+    width: 500px;
+    padding-left: 21px;
+}
+.web a{
+    color:#ff4321;
+    text-decoration: none;
+}
+.details{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.details h1{
+    color:white;
+    margin-left: -5%;
+    margin-top: 12%;
+}
+.details h1 span{
+    color:#ff4321;
+}
+.details p{
+    color:#ff4321;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    margin-left: -7%;
+    width: 500px;
+    padding-left: 21px;
+}
+.details p span{
+    color:white;
+    margin-left: 0%;
+}
