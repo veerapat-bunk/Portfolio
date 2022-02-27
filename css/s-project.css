@@ -1,0 +1,32 @@
+.hero h1{
+    color:#ffffff;
+    font-size: 40px;
+    margin-left:43%;
+    margin-top:5%;
+}
+.hero h1 span{
+    color:#ff4321;
+}
+.img-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+.img-project .box{
+    height: 28rem;
+    width:30rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-project .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.img-project .box:hover img{
+    transform: scale(1.2);
+}
