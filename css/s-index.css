@@ -37,26 +37,3 @@
 .img-box:hover .back-img{
     bottom: 40px;
 }
-.cursor {
-    width: 25px;
-    height: 25px;
-    border: 1px solid white;
-    border-radius: 50%;
-    position: absolute;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim .5s infinite alternate;
-    pointer-events: none;
-}
-.cursor::after {
-    content: "";
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    border: 8px solid gray;
-    border-radius: 50%;
-    opacity: .5;
-    top: -8px;
-    left: -8px;
-}
-
