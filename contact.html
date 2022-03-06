@@ -29,14 +29,15 @@
                 <div class="left"></div>
                 <div class="right">
                     <h1>Contact Us</h1>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="text" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Phone">
-                    <textarea placeholder="Message" class="field"></textarea>
-                    <button class="btn">Send</button>
+                    <input type="text" class="field" id="data-name"  placeholder="Your Name">
+                    <input type="text" class="field" id="data-email" placeholder="Your Email">
+                    <input type="text" class="field" id="data-phone" placeholder="Phone">
+                    <input placeholder="Message"  id="data-message" class="field"></input>
+                    <button onclick="save()" id ="send" class="btn">Send</button>
                 </div>
             </div>
         </div>    
     </div>
+    <script src="/js/script.js"></script>
 </body>
 </html>
