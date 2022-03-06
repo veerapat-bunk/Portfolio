@@ -15,7 +15,15 @@ var typed = new Typed('.typing', {                          // id=typing
  function save(){
     let btnClear = document.querySelector('button');
     let inputs = document.querySelectorAll('input');
+    let name1 = document.getElementById('data-name').value
+    let email = document.getElementById('data-email').value
+    let phone = document.getElementById('data-phone').value
+    let message = document.getElementById('data-message').value
     btnClear.addEventListener('click', () => {
         inputs.forEach(input =>  input.value = '');
+        console.log("Name:  "+name1);
+        console.log("Email:  "+email);
+        console.log("Phone: "+phone);
+        console.log("Message:  "+ message);
     });
  }
