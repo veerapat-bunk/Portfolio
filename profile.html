@@ -24,7 +24,11 @@
             </ul>
             <a href="#" class="btn">Hire Me</a>
         </nav>
-        <div class="about-me">
+        <div class="change-fontsize">
+            <button onclick="changefontsize('increase')">+A</button>
+            <button onclick="changefontsize('decrease')">-A</button>
+        </div>
+        <div class="about-me" id="am">
             <h1>ABOUT <span>ME</span></h1> 
             <p>Now that I am studying at university, where I am studying html and javaScript languages, 
                this is my first piece of work!, I am very pleased to create this work. maybe I didn't come up with all of the idea
@@ -39,7 +43,7 @@
             <p>Email: <a href="mailto: veerapat.bunk@gmail.com">veerapat.bunk@gmail.com</a></p>
         </div>
         
-        <div class="details">
+        <div class="details" id="de">
             <h1>De<span>tails</span></h1>
             <p>Name : <span>Veerapat Bunkwang</span></p>
             <p>Nickname : <span>Arm</span></p>
@@ -48,5 +52,6 @@
             <p>Location : <span>Thailand</span></p>
         </div>  
     </div>
+    <script src="/js/save-info.js"></script>
 </body>
 </html>
