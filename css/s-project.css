@@ -1,11 +1,17 @@
-.hero h1{
-    color:#ffffff;
-    font-size: 40px;
-    margin-left:43%;
-    margin-top:5%;
+.skin{
+    background: #111427;
+    height: 100%;
+    width: 100%;
 }
-.hero h1 span{
+.title h2{
     color:#ff4321;
+    font-size: 75px;
+    width: 1130px;
+    justify-content: center;
+    margin: 20px;
+}
+.title h2 span{
+    color:white
 }
 .img-project{
     display: flex;
