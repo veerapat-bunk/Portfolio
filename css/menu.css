@@ -23,6 +23,15 @@ nav{
     width:250px;
     cursor:pointer;
 }
+.icon{
+    width:30px;
+    cursor: pointer;
+    margin: 20px;
+}
+nav ul{
+    flex:1;
+    text-align: center;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
