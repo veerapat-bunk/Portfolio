@@ -14,8 +14,9 @@
         console.log("Email:  "+email);
         console.log("Phone: "+phone);
         console.log("Message:  "+ message);
-        console.log("------------------------------------------------");
+        console.log("------------------------------------------------");   
     });
+    console.clear();
  }
 function changeFontSize(type){                                                               // function button single parameter 
     let ids = ['#am','#de'];                                                                 // link id text array 
